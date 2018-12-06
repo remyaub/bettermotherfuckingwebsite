@@ -1,0 +1,17 @@
+/* CSS DOCUMENT */
+
+header {
+	text-align: left;
+	line-height: 1.6;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	font-family: "Verdana";
+	background-color: #EEEEEE;
+	border-radius: 10px;
+
+}
+#footer {
+	background-image: linear-gradient(#E8F3F3, #85DDDD);
+	border-radius: 10px;
+}
