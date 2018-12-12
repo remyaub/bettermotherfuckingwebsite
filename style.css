@@ -4,17 +4,17 @@ header {
 	line-height: 1.6;
 	margin-left: auto;
 	margin-right: auto;
-	width: 700px;
-	font-family: "Verdana";
+	width: 800px;
 	border-radius: 10px;
-	}
+	font-family: 'Raleway', sans-serif;
 
-#main {
- padding-left: 10px;
- background-color: #E6F5EB;
- border-radius: 10px;
+	}
+body {
+background-color: #EEEEEE;
 
 }
+
+
 
 #top {
 	text-align: center; 
@@ -27,7 +27,27 @@ header {
 
 
 #footer {
-	background-image: linear-gradient(#E8F3F3, #85DDDD);
+	background-image: linear-gradient(#4B93CF, #4BCF7D);
 	border-radius: 10px;
 	padding-left: 10px;
+	color: white
+}
+
+button {
+  background-color: #C2FF58;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+
+button:active {
+  background-color: "pink";
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
