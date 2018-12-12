@@ -17,21 +17,9 @@ background-color: #EEEEEE;
 
 
 #top {
-	text-align: center; 
-	background-image: linear-gradient(#4B93CF, #4BCF7D);
-	border-radius: 10px;
-	padding: 20px;
-	color: white;
-
+	text-align: center;
  }
 
-
-#footer {
-	background-image: linear-gradient(#4B93CF, #4BCF7D);
-	border-radius: 10px;
-	padding-left: 10px;
-	color: white
-}
 
 button {
   background-color: #C2FF58;
