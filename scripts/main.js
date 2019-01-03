@@ -26,26 +26,25 @@ function myFunction() {
     var allH3 = document.getElementsByTagName("h3");
     for(var i = 0; i < allH3.length; i++) {
       allH3[i].style.color = "green";
-      allH3[i].style.fontFamily = "Comic Sans"
+      allH3[i].style.fontFamily = "Comic Sans";
    	}
 
     var allP = document.getElementsByTagName("p");
     for(var i = 0; i < allP.length; i++) {
       allP[i].style.color = "blue";
-      allP[i].style.fontFamily = "papyrus"
+      allP[i].style.fontFamily = "papyrus";
   	}
 
 
     var allLI = document.getElementsByTagName("li");
     for(var i = 0; i < allLI.length; i++) {
       allLI[i].style.color = "blue";
-      allLI[i].style.fontFamily = "papyrus"
-
-	 }
+      allLI[i].style.fontFamily = "papyrus";
+    }
 
    var allBLOCKQUOTE = document.getElementsByTagName("blockquote");
    for(var i = 0; i < allBLOCKQUOTE.length; i++) {
-   allBLOCKQUOTE[i].style.color = "blue";
-   allBLOCKQUOTE[i].style.fontFamily = "papyrus";
+      allBLOCKQUOTE[i].style.color = "blue";
+      allBLOCKQUOTE[i].style.fontFamily = "papyrus";
 	}
 
