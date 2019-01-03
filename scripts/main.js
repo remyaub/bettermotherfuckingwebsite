@@ -51,7 +51,12 @@ for(var i = 0; i < allP.length; i++) {
     var allLI = document.getElementsByTagName("li");
 for(var i = 0; i < allLI.length; i++) {
    allLI[i].style.color = "blue";
-	}
+	 }
+
+   var allLI = document.getElementsByTagName("li");
+for(var i = 0; i < allLI.length; i++) {
+   allLI[i].style.fontFamily = "papyrus";
+   }
 
    var allBLOCKQUOTE = document.getElementsByTagName("blockquote");
 for(var i = 0; i < allBLOCKQUOTE.length; i++) {
