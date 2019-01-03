@@ -13,27 +13,27 @@ function myFunction() {
     for(var i = 0; i < allH1.length; i++) {
       allH1[i].style.color = "green";
       allH1[i].style.fontFamily = "Comic Sans";
-   	}
+    }
 
 
    	var allH2 = document.getElementsByTagName("h2");
     for(var i = 0; i < allH2.length; i++) {
       allH2[i].style.color = "green";
       allH2[i].style.fontFamily = "Comic Sans";
-   	}
+    }
 
 
     var allH3 = document.getElementsByTagName("h3");
     for(var i = 0; i < allH3.length; i++) {
       allH3[i].style.color = "green";
       allH3[i].style.fontFamily = "Comic Sans";
-   	}
+    }
 
     var allP = document.getElementsByTagName("p");
     for(var i = 0; i < allP.length; i++) {
       allP[i].style.color = "blue";
       allP[i].style.fontFamily = "papyrus";
-  	}
+    }
 
 
     var allLI = document.getElementsByTagName("li");
@@ -46,5 +46,5 @@ function myFunction() {
    for(var i = 0; i < allBLOCKQUOTE.length; i++) {
       allBLOCKQUOTE[i].style.color = "blue";
       allBLOCKQUOTE[i].style.fontFamily = "papyrus";
-	}
-
+   }
+}
